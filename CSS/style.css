@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  font-family: 'Lora', serif;
+}
+header{
+  height: 100px;
+  background-color: purple;
+  font-size: 1.8em;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+#circle{
+  background-color: purple;
+  height: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  border-radius: 50px;
+  margin-top: 100px;
+}
+.row{
+  margin-left: 25%;
+}
+h1{
+  margin-top: 0;
+  padding-top: 10px;
+}
+h3{
+color:#fff;
+}
+#menubtn{
+  float:right;
+  margin-right: 15%;
+  color: black;
+  background-color: white;
+}
+#Menu{
+  margin-right: 8.25%;
+  float: right;
+  z-index: 10000;
+  background-color: purple;
+  list-style-type: none;
+  color: black;
+  height: 0px;
+  width: 250px;
+  overflow: hidden;
+  transition: height 0.3s linear 0s;
+}
+#btn{
+  float: left;
+  margin-left: 8.25%;
+  background-color: white;
+  color: black;
+  width: 100px;
+  text-align: center;
+}
+#submit{
+  color: black;
+  font-weight: bold;
+}
+#Login-menu{
+  margin-left: 5%;
+  color:black;
+  height: 0px;
+  overflow: hidden;
+  z-index: 10000;
+  width: 250px;
+  background-color: purple;
+  color: white;
+  font-size: 1.3em;
+  transition: height 0.3s linear 0s;
+}
+form{
+  text-align: center;
+  padding-top: 10px;
+}
+form input{
+  padding-top: 5px;
+}
